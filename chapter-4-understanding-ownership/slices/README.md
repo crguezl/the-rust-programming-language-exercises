@@ -328,7 +328,7 @@ Ownership affects how lots of other parts of Rust work, so we’ll talk about
 these concepts further throughout the rest of the book. Let’s move on to
 Chapter 5 and look at grouping pieces of data together in a `struct`.
 
-[ch13]: ch13-02-iterators.html
-[ch6]: ch06-02-match.html#patterns-that-bind-to-values
-[strings]: ch08-02-strings.html#storing-utf-8-encoded-text-with-strings
-[deref-coercions]: ch15-02-deref.html#using-deref-coercions-in-functions-and-methods
+[ch13]: https://rust-book.cs.brown.edu/ch13-02-iterators.html
+[ch6]: https://rust-book.cs.brown.edu/ch06-02-match.html#patterns-that-bind-to-values
+[strings]: https://rust-book.cs.brown.edu/ch08-02-strings.html#storing-utf-8-encoded-text-with-strings
+[deref-coercions]: https://rust-book.cs.brown.edu/ch15-02-deref.html#using-deref-coercions-in-functions-and-methods
