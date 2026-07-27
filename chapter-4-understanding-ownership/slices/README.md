@@ -1,7 +1,7 @@
 ## The Slice Type
 
 _Slices_ let you reference a contiguous sequence of elements in a
-[collection](https://rust-book.cs.brown.edu/ch08-00-common-collections.md)<!-- ignore -->. A slice is a kind
+[collection](https://rust-book.cs.brown.edu/ch08-00-common-collections.html)<!-- ignore -->. A slice is a kind
 of reference, so it does not have ownership.
 
 Here’s a small programming problem: Write a function that takes a string of
