@@ -16,7 +16,7 @@ For the second exercise:
 cargo run --bin exercise
 ```
 
-the solution to the exercise is in file [src/main.rs](src/main.rs).
+the solution to the exercise is in file [src/solution-ch04-04-slices-question-2.rs](src/solution-ch04-04-slices-question-2.rs).
 
 ```
 cargo run --bin solution
