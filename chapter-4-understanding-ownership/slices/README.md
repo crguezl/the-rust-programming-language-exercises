@@ -1,6 +1,6 @@
 ## Running the exercises
 
-See file [Cargo.toml](Cargo.toml) for the list of exercises in folder `src/`. You can run them with the following commands:
+See the `[[bin]]` sections in file [Cargo.toml](Cargo.toml) for the list of exercises in folder `src/`. You can run them with the following commands:
 
 ```
 cargo run --bin first-word
