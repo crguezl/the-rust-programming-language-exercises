@@ -8,8 +8,12 @@ edition = "2024"
 
 [[bin]]
 name = "exercise"
-path = "src/exercise.rs"
+path = "src/exercise-ch04-04-slices-question-2.rs"
+
+[[bin]]
+name = "solution"
+path = "src/solution-ch04-04-slices-question-2.rs"
 
 [[bin]]
 name = "first-word"
-path = "src/first-word.rs"
+path = "src/first-word-ch04-04.rs"

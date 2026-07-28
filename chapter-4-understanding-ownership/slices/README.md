@@ -2,13 +2,13 @@
 
 See the `[[bin]]` sections in file [Cargo.toml](Cargo.toml) for the list of exercises in folder `src/`. You can run them with the following commands:
 
+### Running the https://rust-book.cs.brown.edu/ch04-04-slices.html#other-slices 2nd exercise
+
 ```
 cargo run --bin first-word
 ```
 
-```
-cargo run --bin exercise
-```
+the solution to the exercise is in file [src/main.rs](src/main.rs).
 
 ```
 cargo run
