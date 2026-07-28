@@ -1,3 +1,19 @@
+## Running the exercises
+
+See file [Cargo.toml](Cargo.toml) for the list of exercises in folder `src/`. You can run them with the following commands:
+
+```
+cargo run --bin first-word
+```
+
+```
+cargo run --bin exercise
+```
+
+```
+cargo run
+```
+
 ## The Slice Type
 
 _Slices_ let you reference a contiguous sequence of elements in a
