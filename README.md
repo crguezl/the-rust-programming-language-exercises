@@ -1,9 +1,6 @@
-## Programming a Guessing Game
+# Reading "The Rust Programming Language" Book
 
-See 
-
-- https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html
-- https://rust-book.cs.brown.edu/ch02-00-guessing-game-tutorial.html
+See the README.md files in each chapter folder for instructions on how to run the exercises.
 
 ## Debugging Rust
 
