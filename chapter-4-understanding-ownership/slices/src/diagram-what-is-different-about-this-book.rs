@@ -1,5 +1,6 @@
 // See section https://rust-book.cs.brown.edu/experiment-intro.html#content-changes inside the chapter
 // "What’s Different About This Book?"
+// See also https://cel.cs.brown.edu/aquascope/
 // Run with `cargo run --bin diagram` to see the output of this program.
 fn main() {
     let mut s = String::from("Hello world");

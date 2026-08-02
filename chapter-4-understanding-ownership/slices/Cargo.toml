@@ -6,6 +6,10 @@ edition = "2024"
 [dependencies]
 
 [[bin]]
+name = "aquascope"
+path = "src/aquascope-example.rs"
+
+[[bin]]
 name = "diagram"
 path = "src/diagram-what-is-different-about-this-book.rs"
 
