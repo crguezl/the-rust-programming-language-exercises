@@ -5,6 +5,9 @@ edition = "2024"
 
 [dependencies]
 
+[[bin]]
+name = "diagram"
+path = "src/diagram-what-is-different-about-this-book.rs"
 
 [[bin]]
 name = "exercise"
