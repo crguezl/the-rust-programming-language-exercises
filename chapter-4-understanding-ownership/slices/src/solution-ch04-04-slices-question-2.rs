@@ -13,8 +13,10 @@ fn main() {
     println!(
         r#"
 s            = "{s}"
+s.len       = {}
 &String size = {} 
 &str size.   = {}"#,
+        s.len(),
         std::mem::size_of::<&String>(), // 8 bytes on a 64-bit architecture
         std::mem::size_of::<&str>(),    // 16 bytes on a 64-bit architecture
     );
