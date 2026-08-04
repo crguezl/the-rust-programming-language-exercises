@@ -7,7 +7,7 @@ fn main() {
   // same as *.index(0)
   // n borrows a reference to the first element of v, which is 1
   v.push(0); // It can produce UB: a reallocation of the vector, which invalidates the reference n.
-  v[2] = 5; // v is mutated, but n is still valid because it is a reference to the first element of v
+  v[2] = 5; // v is mutated, but n is still valid because it is a reference to the first element of v. In spite of that, the borrow checker will not allow this mutation because n is still in scope and it is a reference to v. The borrow checker will see that n is still in scope and it is a reference to v, so it will not allow the mutation of v. This is because the borrow checker does not know that n is no longer used after the mutation of v. The borrow checker only knows that n is still in scope and it is a reference to v, so it will not allow the mutation of v.
   let x = (*n) + 1;   //  Move these two lines before the mutation of v  and the error will disappear. 
   println!("x = {x}"); // The reason is that the borrow checker will see that n is no longer used after the mutation of v, so it will allow the mutation. If we move the lines after the mutation of v, the borrow checker will see that n is still used after the mutation, so it will not allow the mutation.
 
